@@ -1,1 +1,2 @@
-* [Hires. fix Upscaler comparison 1 (A girl sitting ounder the tree)](https://dreamingyou.github.io/comparison/hires-fix-upscaler-1.html)
+* [Hires. fix Upscaler comparison 1 (Sitting under the tree)](https://dreamingyou.github.io/comparison/hires-fix-upscaler-1.html)
+* [Hires. fix Upscaler comparison 2 (Sunset Street)](https://dreamingyou.github.io/comparison/hires-fix-upscaler-2.html)

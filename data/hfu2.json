@@ -1,97 +1,97 @@
 {
-    "title": "Hires. fix Comparison Upscaler 1 (Sitting Under the tree)",
+    "title": "Hires. fix Comparison Upscaler 2 (Sunset Street)",
     "images": [
         {
             "description": "Original Image",
-            "id": "images/hfu1/Original_Image.jpg"
+            "id": "images/hfu2/Original-hfu2.jpg"
         },
         {
             "description": "Box",
-            "id": "images/hfu1/Box_4x.jpg"
+            "id": "images/hfu2/Box-hfu2.jpg"
         },
         {
             "description": "BSRGAN",
-            "id": "images/hfu1/BSRGAN_4x.jpg"
+            "id": "images/hfu2/BSRGAN-hfu2.jpg"
         },
         {
             "description": "ESRGAN",
-            "id": "images/hfu1/ESRGAN_4x.jpg"
+            "id": "images/hfu2/ESRGAN-hfu2.jpg"
         },
         {
             "description": "LSDIR",
-            "id": "images/hfu1/LSDIR_4x.jpg"
+            "id": "images/hfu2/LSDIR-hfu2.jpg"
         },
         {
             "description": "LSDIRplus",
-            "id": "images/hfu1/LSDIRplus_4x.jpg"
+            "id": "images/hfu2/LSDIRplus-hfu2.jpg"
         },
         {
             "description": "LSDIRplusC",
-            "id": "images/hfu1/LSDIRplusC_4x.jpg"
+            "id": "images/hfu2/LSDIRplusC-hfu2.jpg"
         },
         {
             "description": "LSDIRplusN",
-            "id": "images/hfu1/LSDIRplusN_4x.jpg"
+            "id": "images/hfu2/LSDIRplusN-hfu2.jpg"
         },
         {
             "description": "NickelbackFS",
-            "id": "images/hfu1/NickelbackFS_4x.jpg"
+            "id": "images/hfu2/NickelbackFS-hfu2.jpg"
         },
         {
             "description": "NMKD Siax",
-            "id": "images/hfu1/NMKD_Siax_4x.jpg"
+            "id": "images/hfu2/NMKD_Siax-hfu2.jpg"
         },
         {
             "description": "NMKD Superscale",
-            "id": "images/hfu1/NMKD_Superscale_4x.jpg"
+            "id": "images/hfu2/NMKD_Superscale-hfu2.jpg"
         },
         {
             "description": "Nomos8kSC",
-            "id": "images/hfu1/Nomos8kSC_4x.jpg"
+            "id": "images/hfu2/Nomos8kSC-hfu2.jpg"
         },
         {
             "description": "RealSR DF2K",
-            "id": "images/hfu1/RealSR_DF2K_4x.jpg"
+            "id": "images/hfu2/RealSR_DF2K-hfu2.jpg"
         },
         {
             "description": "RealSR DF2K JPEG",
-            "id": "images/hfu1/RealSR_DF2K_JPEG_4x.jpg"
+            "id": "images/hfu2/RealSR_DF2K_JPEG-hfu2.jpg"
         },
         {
             "description": "RealSR DPED",
-            "id": "images/hfu1/RealSR_DPED_4x.jpg"
+            "id": "images/hfu2/RealSR_DPED-hfu2.jpg"
         },
         {
             "description": "Remacri",
-            "id": "images/hfu1/Remacri_4x.jpg"
+            "id": "images/hfu2/Remacri-hfu2.jpg"
         },
         {
             "description": "R-ESRGAN+",
-            "id": "images/hfu1/R-ESRGAN_4x+.jpg"
+            "id": "images/hfu2/R-ESRGAN-hfu2.jpg"
         },
         {
             "description": "SwinIR",
-            "id": "images/hfu1/SwinIR_4x.jpg"
+            "id": "images/hfu2/SwinIR-hfu2.jpg"
         },
         {
             "description": "UltraMix Balanced",
-            "id": "images/hfu1/UltraMix_Balanced_4x.jpg"
+            "id": "images/hfu2/UltraMix_Balanced-hfu2.jpg"
         },
         {
             "description": "UltraMix Restore",
-            "id": "images/hfu1/UltraMix_Restore_4x.jpg"
+            "id": "images/hfu2/UltraMix_Restore-hfu2.jpg"
         },
         {
             "description": "UltraMix Smooth",
-            "id": "images/hfu1/UltraMix_Smooth_4x.jpg"
+            "id": "images/hfu2/UltraMix_Smooth-hfu2.jpg"
         },
         {
             "description": "UltraSharp",
-            "id": "images/hfu1/UltraSharp_4x.jpg"
+            "id": "images/hfu2/UltraSharp-hfu2.jpg"
         },
         {
             "description": "Valar",
-            "id": "images/hfu1/Valar_v1_4x.jpg"
+            "id": "images/hfu2/Valar_v1-hfu2.jpg"
         }
     ]
 }
