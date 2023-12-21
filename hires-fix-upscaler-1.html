@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=600, maximum-scale=1">
+    <title></title>
+    <script>window.scripts = []</script>
+    <link rel="stylesheet" type="text/css" href="assets/styles.css" media="screen">
+    <link rel="image_src" href="images/hfu1/Box_4x.jpg">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="images/hfu1/Box_4x.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="images/hfu1/Box_4x.jpg">
+</head>
+<body class="Body">
+<div class="-u-container wide">
+    <div class="ImageComparer">
+        <div class="box">
+            <div class="description"></div>
+            <div class="controls">
+                <a href="#" class="fullscreen" title="toggle fullscreen">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32">
+                        <path d="M4.576 20.576H0V32h11.424v-4.576H4.576v-6.848zM0 11.424h4.576V4.576h6.848V0H0v11.424zm27.424 16h-6.848V32H32V20.576h-4.576v6.848zM20.576 0v4.576h6.848v6.848H32V0H20.576z"></path>
+                    </svg>
+                </a>
+                <a href="#" class="fullscreen-exit" title="toggle fullscreen">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32">
+                        <path d="M0 25.152h6.848V32h4.576V20.576H0v4.576zM6.848 6.848H0v4.576h11.424V0H6.848v6.848zM20.576 32h4.576v-6.848H32v-4.576H20.576V32zm4.576-25.152V0h-4.576v11.424H32V6.848h-6.848z"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="slider">
+                <button></button>
+                <div class="beforeDescription">
+                    <select class="beforeSelect">
+                    </select>
+                </div>
+                <div class="afterDescription">
+                    <select class="afterSelect">
+                    </select>
+                </div>
+            </div>
+            <div class="before">
+                <img alt="" src="">
+            </div>
+            <img class="after" alt="" src="">
+        </div>
+    </div>
+    <script>
+        window.scripts.push(async function () {
+            const data = await fetch('data/hfu1.json').then((response) => response.json())
+
+            for (let i = 0; i < data.images.length; i++) {
+                let option = document.createElement('option')
+                option.value = i
+                option.text = data.images[i].description
+                let cloneOption = option.cloneNode(true)
+                document.querySelector('.beforeSelect').appendChild(option)
+                document.querySelector('.afterSelect').appendChild(cloneOption)
+            }
+
+            imgsli.slider(document.querySelectorAll('.ImageComparer'), data.images, 'hires-fix-upscaler-1.html')
+
+            let searchParams = new URLSearchParams(window.location.search)
+            let left = searchParams.get('left') ?? '0'
+            let right = searchParams.get('right') ?? '1'
+            document.querySelector('.beforeSelect').selectedIndex = left
+            document.querySelector('.afterSelect').selectedIndex = right
+
+            let beforeImg = document.querySelector('.before img')
+            let afterImg = document.querySelector('img.after')
+            beforeImg.setAttribute('data-lazy-src', data.images[left].id)
+            beforeImg.setAttribute('src', data.images[left].id)
+            afterImg.setAttribute('src', data.images[right].id)
+
+            document.title = data.title
+            document.querySelector('.description').textContent = data.title
+        })
+    </script>
+</div>
+<script type="text/javascript" src="assets/main.js"></script>
+</body>
+</html>

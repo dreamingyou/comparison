@@ -1,0 +1,97 @@
+{
+    "title": "Hires. fix Comparison Upscaler 1 (A girl sitting under the tree)",
+    "images": [
+        {
+            "description": "Original Image",
+            "id": "images/hfu1/Original_Image.jpg"
+        },
+        {
+            "description": "Box",
+            "id": "images/hfu1/Box_4x.jpg"
+        },
+        {
+            "description": "BSRGAN",
+            "id": "images/hfu1/BSRGAN_4x.jpg"
+        },
+        {
+            "description": "ESRGAN",
+            "id": "images/hfu1/ESRGAN_4x.jpg"
+        },
+        {
+            "description": "LSDIR",
+            "id": "images/hfu1/LSDIR_4x.jpg"
+        },
+        {
+            "description": "LSDIRplus",
+            "id": "images/hfu1/LSDIRplus_4x.jpg"
+        },
+        {
+            "description": "LSDIRplusC",
+            "id": "images/hfu1/LSDIRplusC_4x.jpg"
+        },
+        {
+            "description": "LSDIRplusN",
+            "id": "images/hfu1/LSDIRplusN_4x.jpg"
+        },
+        {
+            "description": "NickelbackFS",
+            "id": "images/hfu1/NickelbackFS_4x.jpg"
+        },
+        {
+            "description": "NMKD Siax",
+            "id": "images/hfu1/NMKD_Siax_4x.jpg"
+        },
+        {
+            "description": "NMKD Superscale",
+            "id": "images/hfu1/NMKD_Superscale_4x.jpg"
+        },
+        {
+            "description": "Nomos8kSC",
+            "id": "images/hfu1/Nomos8kSC_4x.jpg"
+        },
+        {
+            "description": "RealSR DF2K",
+            "id": "images/hfu1/RealSR_DF2K_4x.jpg"
+        },
+        {
+            "description": "RealSR DF2K JPEG",
+            "id": "images/hfu1/RealSR_DF2K_JPEG_4x.jpg"
+        },
+        {
+            "description": "RealSR DPED",
+            "id": "images/hfu1/RealSR_DPED_4x.jpg"
+        },
+        {
+            "description": "Remacri",
+            "id": "images/hfu1/Remacri_4x.jpg"
+        },
+        {
+            "description": "R-ESRGAN+",
+            "id": "images/hfu1/R-ESRGAN_4x+.jpg"
+        },
+        {
+            "description": "SwinIR",
+            "id": "images/hfu1/SwinIR_4x.jpg"
+        },
+        {
+            "description": "UltraMix Balanced",
+            "id": "images/hfu1/UltraMix_Balanced_4x.jpg"
+        },
+        {
+            "description": "UltraMix Restore",
+            "id": "images/hfu1/UltraMix_Restore_4x.jpg"
+        },
+        {
+            "description": "UltraMix Smooth",
+            "id": "images/hfu1/UltraMix_Smooth_4x.jpg"
+        },
+        {
+            "description": "UltraSharp",
+            "id": "images/hfu1/UltraSharp_4x.jpg"
+        },
+        {
+            "description": "Valar",
+            "id": "images/hfu1/Valar_v1_4x.jpg"
+        }
+    ]
+}
